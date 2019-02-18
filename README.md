@@ -3,6 +3,8 @@ This is a free tool allowing to clone from a dirty Catchall Git repository to cr
 
 I created initially this tool after having posted a [question on Stackoverflow](https://stackoverflow.com/q/53396677/10524205).
 
+This script uses my [scripts-common](https://github.com/bertrand-benoit/scripts-common) project, you can find on GitHub.
+
 
 # Usage
 ```
