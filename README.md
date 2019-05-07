@@ -6,7 +6,7 @@ I created initially this tool after having posted a [question on Stackoverflow](
 This script uses my [scripts-common](https://github.com/bertrand-benoit/scripts-common) project, you can find on GitHub.
 
 ## Usage
-```
+```bash
 Usage: ./cloneToCleanGitRepositories.sh <source repository> <dest root directory> <filter>
 <source repository>    path to the existing catchall git repository
 <dest root directory>  path to the existing root directory, in which git repositories will be created
@@ -18,7 +18,7 @@ N.B.: the source repository won't be altered in any way
 ## Sample
 Imagine you have a single Git repository with several scripts in it, and now you would like a dedicated Git repository for each of your script; then this tool is perfect for you.
 
-```
+```bash
 ./cloneToCleanGitRepositories.sh /path/to/my/catchall/git/repository /tmp/myFirstTest '*.sh'
 ```
 

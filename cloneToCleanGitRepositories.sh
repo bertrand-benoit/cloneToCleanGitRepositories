@@ -57,6 +57,8 @@ function cloneToCleanGitRepositories() {
     cd "$newDestRepo/$sourceRepoName"
 
     # Removes all other resources.
+    # NB.: 'Expressions don't expand in single quotes' is EXACTLY what we want here, so disabling shellcheck corresponding warning.
+    # shellcheck disable=2016
     FILTER='git ls-tree -r --name-only --full-tree "$GIT_COMMIT" |grep -v ".git" |grep -v "'$refFileName'" |tr "\n" "\0" |xargs --no-run-if-empty -0 git rm -f --cached -r --ignore-unmatch'
     ! git filter-branch -f --prune-empty --tag-name-filter cat --index-filter "$FILTER" -- --all >"$logFile" 2>&1 && errorMessage "Error while cleaning new git repository."
 
