@@ -1,4 +1,7 @@
 # cloneToCleanGitRepositories version 1.1
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e4ce1255ba84133a898d5bd94d6e8f7)](https://app.codacy.com/app/bertrand-benoit/cloneToCleanGitRepositories?utm_source=github.com&utm_medium=referral&utm_content=bertrand-benoit/cloneToCleanGitRepositories&utm_campaign=Badge_Grade_Dashboard)
+
 This is a free tool allowing to clone from a dirty Catchall Git repository to create clean repository for each specified versioned element.
 
 I created initially this tool after having posted a [question on Stackoverflow](https://stackoverflow.com/q/53396677/10524205).
