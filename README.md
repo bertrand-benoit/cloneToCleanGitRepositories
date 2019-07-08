@@ -36,7 +36,7 @@ Imagine you have a single Git repository with several scripts in it, and now you
 
 ## Contributing
 Don't hesitate to [contribute](https://opensource.guide/how-to-contribute/) or to contact me if you want to improve the project.
-You can [report issues or request features](https://github.com/bertrand-benoit/scripts-common/issues) and propose [pull requests](https://github.com/bertrand-benoit/scripts-common/pulls).
+You can [report issues or request features](https://github.com/bertrand-benoit/cloneToCleanGitRepositories/issues) and propose [pull requests](https://github.com/bertrand-benoit/cloneToCleanGitRepositories/pulls).
 
 ## Versioning
 The versioning scheme we use is [SemVer](http://semver.org/).
