@@ -1,4 +1,6 @@
-# cloneToCleanGitRepositories version 1.1
+:warning: This project is now hosted on [Gitlab](https://gitlab.com/bertrand-benoit/cloneToCleanGitRepositories); switch to it to get newer versions.
+
+# cloneToCleanGitRepositories version 1.1.0
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e4ce1255ba84133a898d5bd94d6e8f7)](https://app.codacy.com/app/bertrand-benoit/cloneToCleanGitRepositories?utm_source=github.com&utm_medium=referral&utm_content=bertrand-benoit/cloneToCleanGitRepositories&utm_campaign=Badge_Grade_Dashboard)
 
@@ -6,7 +8,7 @@ This is a free tool allowing to clone from a dirty Catchall Git repository to cr
 
 I created initially this tool after having posted a [question on Stackoverflow](https://stackoverflow.com/q/53396677/10524205).
 
-This script uses my [scripts-common](https://github.com/bertrand-benoit/scripts-common) project, you can find on GitHub.
+This script uses my [scripts-common](https://gitlab.com/bertrand-benoit/scripts-common) project.
 
 ## First time you clone this repository
 After the first time you clone this repository, you need to initialize git submodule:
@@ -15,7 +17,7 @@ git submodule init
 git submodule update
 ```
 
-This way, [scripts-common](https://github.com/bertrand-benoit/scripts-common) project will be available and you can use this tool.
+This way, [scripts-common](https://gitlab.com/bertrand-benoit/scripts-common) project will be available and you can use this tool.
 
 ## Usage
 ```bash
@@ -36,7 +38,7 @@ Imagine you have a single Git repository with several scripts in it, and now you
 
 ## Contributing
 Don't hesitate to [contribute](https://opensource.guide/how-to-contribute/) or to contact me if you want to improve the project.
-You can [report issues or request features](https://github.com/bertrand-benoit/scripts-common/issues) and propose [pull requests](https://github.com/bertrand-benoit/scripts-common/pulls).
+You can [report issues or request features](https://gitlab.com/bertrand-benoit/cloneToCleanGitRepositories/issues) and propose [merge requests](https://gitlab.com/bertrand-benoit/cloneToCleanGitRepositories/merge_requests).
 
 ## Versioning
 The versioning scheme we use is [SemVer](http://semver.org/).
